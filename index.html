@@ -3,10 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de tareas</title>
-    <h1></h1>
+    <title>Curso de Git</title>
+    <link rel="stylesheet" href="app.css"> 
+
+    
 </head>
 <body>
+    <nav class="navbar">
+        <div class="container nav-content">
+            <h1 class="logo">Todo<span>List</span></h1>
+            <ul class="nav-links">
+                <li><a href="#" class="active">Mis Tareas</a></li>
+                <li><a href="#">Calendario</a></li>
+                <li><a href="#">Ajustes</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="container">
+        <header class="page-header">
+            <h2>Mis Tareas</h2>
+            <p>Gestiona tus actividades diarias de forma sencilla y eficiente.</p>
+        </header>
+
+        <section id="task-list" class="task-grid">
+            <!-- Las tareas se cargarán dinámicamente desde JS -->
+        </section>
+    </main>
+
+    <script src="script.js"></script>
     
 </body>
-</html>
+</html>     
