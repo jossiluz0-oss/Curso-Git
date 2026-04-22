@@ -1,8 +1,8 @@
 :root {
-    --bg-dark: #010101;
+    --bg-dark: #0101011c;
     --bg-card: #09090b;
-    --bg-navbar: #010101;
-    --text-primary: #ffffff;
+    --bg-navbar: #b49b9b;
+    --text-primary: #804d4d;
     --text-secondary: #a1a1aa;
     --accent: #10b981;
     --accent-glow: rgba(16, 185, 129, 0.15);
